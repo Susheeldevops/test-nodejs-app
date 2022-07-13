@@ -16,7 +16,7 @@ pipeline {
                 echo "advanced level resources"
             }
         }
-           stage("BUILDING"){
+           stage("BUILDING application"){
             steps{
                 echo "Building the sources"
             }
