@@ -11,12 +11,12 @@ pipeline {
                 echo "advanced resource"
             }
         }
-           stage("advanced level"){
+           stage("advanced level testing"){
             steps{
                 echo "advanced level resources"
             }
         }
-           stage("BUILDING application"){
+           stage("BUILDING"){
             steps{
                 echo "Building the sources"
             }
